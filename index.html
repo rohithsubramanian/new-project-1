@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body background="./690849_beautiful-sunset-wallpapers-for-desktop-laptop-mobile_1920x1080_h.webp">
+    <div class="forms">
+    <form action="foundation.html" onsubmit="return validate()">
+
+        <h3>Login Form</h3>
+        <label for="email">Email</label>
+        <br>
+        <input type="text" placeholder="Email" id="email">
+        <br>
+        <br>
+        <label for="error" id="error"></label>
+        <label for="password">Password</label>
+        <br>
+        <input type="password" placeholder="Password" id="pwd">
+        <br>
+        <br>
+        <input type="text" onkeyup="Passwordstrength()">
+        <label for="error" id="error1"></label>
+
+        <button id="submit">Login</button>
+        <a href="signup.html">signup</a>
+    </form>
+    </div>
+    <script src="./form.js"></script>
+</body>
+</html>
